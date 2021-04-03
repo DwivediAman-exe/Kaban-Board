@@ -6,10 +6,10 @@ html {
 }
 
 :root {
-  --column-1: #a2622d;
-  --column-2: #1b6161;
-  --column-3: #248224;
-  --column-4: #a22d22;
+  --column-1: #c87a39;
+  --column-2: #2e7070;
+  --column-3: #1dac1d;
+  --column-4: #ec4637;
 }
 
 body {
@@ -53,7 +53,7 @@ ul {
 	flex:1;
   margin: 0 10px;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(49, 47, 47, 0.397);
   border-radius: 10px;
   overflow-x: hidden;
 }
@@ -133,7 +133,7 @@ ul {
   margin: 10px;
   padding: 10px;
   height: fit-content;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(39, 31, 31, 0.8);
   border-radius: 10px;
   line-height: 1.5rem;
   letter-spacing: 1px;
@@ -195,13 +195,13 @@ ul {
   padding: 5px 10px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.9);
-  min-height: 100px;
+  min-height: 50px;
   display: none;
 }
 
 .add-item {
   width: 100%;
-  min-height: 100px;
+  min-height: 60px;
   height: auto;
   background-color: white;
   border-radius: 10px;
@@ -217,11 +217,11 @@ ul {
 
 footer {
 	position: fixed;
-	color: black;
+	color: rgba(0, 0, 0, 0.466);
 	left: 50%;
 	bottom: 1%;
-	transform: translateX(-54%);
-	font-weight: 500;
+	transform: translateX(-55%);
+	font-weight: 900;
 	font-size: 1.1rem;
 }
 
