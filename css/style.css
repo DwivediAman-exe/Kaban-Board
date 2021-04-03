@@ -215,6 +215,16 @@ ul {
   outline: none;
 }
 
+footer {
+	position: fixed;
+	color: black;
+	left: 50%;
+	bottom: 1%;
+	transform: translateX(-54%);
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
 /* Media Query: Laptop */
 @media screen and (max-width: 1800px) {
   .main-title {
