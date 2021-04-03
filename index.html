@@ -26,16 +26,16 @@
 					</div>
 					<!-- Add button group -->
 					<div class="add-btn-group">
-						<div class="add-btn">
+						<div class="add-btn" onclick="showInputBox(0)">
 							<div class="plus-sign">+</div>
 							<span>Add Item</span>
 						</div>
-						<div class="add-btn solid">Save item
+						<div class="add-btn solid" onclick="hideInputBox(0)">
 							<span>Save item</span>
 						</div>
-						<div class="add-container">
-							<div class="add-item"></div>
-						</div>
+					</div>
+					<div class="add-container">
+						<div class="add-item" contenteditable="true"></div>
 					</div>
 				</li>
 				<!-- Progress column -->
@@ -45,21 +45,21 @@
 					</span>
 					<!-- Progress Content -->
 					<div id="progress-content" class="custom-scroll">
-						<ul class="drag-item-list" id="progress-list" ondrop="drop(event)" ondragover="allowDrop(event)"ondragenter="dragEnter(1)">
+						<ul class="drag-item-list" id="progress-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(1)">
 						</ul>
 					</div>
 					<!-- Add button group -->
 					<div class="add-btn-group">
-						<div class="add-btn">
+						<div class="add-btn" onclick="showInputBox(1)">
 							<div class="plus-sign">+</div>
 							<span>Add Item</span>
 						</div>
-						<div class="add-btn solid">Save item
+						<div class="add-btn solid" onclick="hideInputBox(1)">
 							<span>Save item</span>
 						</div>
-						<div class="add-container">
-							<div class="add-item"></div>
-						</div>
+					</div>
+					<div class="add-container">
+						<div class="add-item" contenteditable="true"></div>
 					</div>
 				</li> 
 				<!-- Complete column -->
@@ -74,17 +74,18 @@
 					</div>
 					<!-- Add button group -->
 					<div class="add-btn-group">
-						<div class="add-btn">
+						<div class="add-btn" onclick="showInputBox(2)">
 							<div class="plus-sign">+</div>
 							<span>Add Item</span>
 						</div>
-						<div class="add-btn solid">Save item
+						<div class="add-btn solid" onclick="hideInputBox(2)">
 							<span>Save item</span>
 						</div>
-						<div class="add-container">
-							<div class="add-item"></div>
-						</div>
 					</div>
+					<div class="add-container">
+						<div class="add-item" contenteditable="true"></div>
+					</div>
+					
 				</li>
 				<!-- On Hold column -->
 				<li class="drag-column on-hold-column">
@@ -98,16 +99,16 @@
 					</div>
 					<!-- Add button group -->
 					<div class="add-btn-group">
-						<div class="add-btn">
+						<div class="add-btn" onclick="showInputBox(3)">
 							<div class="plus-sign">+</div>
 							<span>Add Item</span>
 						</div>
-						<div class="add-btn solid">Save item
+						<div class="add-btn solid" onclick="hideInputBox(3)">
 							<span>Save item</span>
 						</div>
-						<div class="add-container">
-							<div class="add-item"></div>
-						</div>
+					</div>
+					<div class="add-container">
+						<div class="add-item" contenteditable="true"></div>
 					</div>
 				</li>
 			</ul>
